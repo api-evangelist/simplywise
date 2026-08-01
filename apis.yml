@@ -1,8 +1,13 @@
 aid: simplywise
 name: Simplywise
-description: 'Simplywise is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'SimplyWise is an AI-powered admin-automation platform for contractors,
+  tradespeople, and small business owners. Its consumer mobile and web apps bundle
+  a receipt scanner and expense organizer, an automatic mileage tracker for tax deductions,
+  an AI-powered job/cost estimator, and an AI receptionist that answers inbound calls
+  and messages. The company reports serving more than 1.2 million business owners.
+  SimplyWise is a fintech-adjacent SMB productivity product backed by QED Investors;
+  as of this profile it publishes no public developer API, SDKs, webhooks, or developer
+  portal — the apps are consumer-facing only.'
 url: https://raw.githubusercontent.com/api-evangelist/simplywise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.simplywise.com/og-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Small Business
+- Receipts
+- Expense Management
+- Mileage Tracking
+- Bookkeeping
+- Artificial Intelligence
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://simplywise.com
+  url: https://www.simplywise.com
+- type: Blog
+  url: https://www.simplywise.com/blog/
+- type: PrivacyPolicy
+  url: https://www.simplywise.com/privacy
+- type: TermsOfService
+  url: https://www.simplywise.com/terms
+- type: DomainSecurity
+  url: security/simplywise-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
